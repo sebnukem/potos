@@ -1,43 +1,44 @@
 # .gitignore for Grails 1.2 and 1.3
 
 # web application files
-/web-app/WEB-INF
+potos3/web-app/WEB-INF
 
 # IDE support files
-/.classpath
-/.launch
-/.project
-/.settings
-/*.launch
-/*.tmproj
-/ivy*
-/eclipse
+potos3/.classpath
+potos3/.launch
+potos3/.project
+potos3/.settings
+potos3/*.launch
+potos3/*.tmproj
+potos3/ivy*
+potos3/eclipse
 
 # default HSQL database files for production mode
-/prodDb.*
+potos3/prodDb.*
 
 # general HSQL database files
 *Db.properties
 *Db.script
 
 # logs
-/stacktrace.log
-/test/reports
-/logs
+potos3/stacktrace.log
+potos3/test/reports
+potos3/logs
 
 # project release file
-/*.war
+potos3/*.war
 
 # plugin release file
-/*.zip
+potos3/*.zip
 
 # older plugin install locations
-/plugins
-/web-app/plugins
-/web-app/WEB-INF/classes
+potos3/plugins
+potos3/web-app/plugins
+potos3/web-app/WEB-INF/classes
 
 # "temporary" build files
-/target
+/potos3/target
+/potos3/target-eclipse
 
 # other
 *.iws
